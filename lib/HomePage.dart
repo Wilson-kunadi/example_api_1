@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(fontSize: 20),
                   ),
                   subtitle: Text(
-                    "${data[i]["url"]}\n${data[i]["html_url"]}",
+                    "${data[i]["url"]}\n${data[i]["node_id"]}",
                     style: TextStyle(fontSize: 13),
                     maxLines: 2,
                   ),
